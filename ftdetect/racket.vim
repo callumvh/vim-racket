@@ -23,6 +23,11 @@ let g:racket_hash_lang_regexp = get(g:, 'racket_hash_lang_regexp',
       \ '^#lang\s\+\%\('.g:racket_hash_lang_modifiers_regex.'\s\+\)\?\([^][)(}{[:space:]]\+\)')
 let g:racket_hash_lang_dict =
       \ extend(get(g:, 'racket_hash_lang_dict', #{}), {
+      \   'htdp/bsl':'racket',          
+      \   'htdp/bsl+':'racket',       
+      \   'htdp/isl':'racket',       
+      \   'htdp/isl+':'racket',       
+      \   'htdp/asl':'racket',       
       \   'racket/base': 'racket',
       \   'racket/gui': 'racket',
       \   'typed/racket': 'racket',
