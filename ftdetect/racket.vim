@@ -1,10 +1,10 @@
 let g:racket_hash_lang_modifiers =
       \ extend(get(g:, 'racket_hash_lang_modifiers', []), [
-      \ 'htdp/bsl'
-      \ 'htdp/bsl+'
-      \ 'htdp/isl'
-      \ 'htdp/isl+'
-      \ 'htdp/asl'
+      \ 'htdp/bsl',
+      \ 'htdp/bsl+',
+      \ 'htdp/isl',
+      \ 'htdp/isl+',
+      \ 'htdp/asl',
       \ 'at-exp',
       \ 's-exp',
       \ 'errortrace',
